@@ -1,14 +1,17 @@
 <template>
     <main class="main">
-        <div class="container">
-            <h1 class="text-3xl font-bold underline">Hello World!</h1>
+        <div class="container my-0 mx-auto py-5">
+            <ButtonWrapper/>
         </div>
     </main>
 </template>
 
 <script>
+    import ButtonWrapper from "@/components/ButtonWrapper";
+
     export default {
-        name: "MainPage"
+        name: "MainPage",
+        components: {ButtonWrapper}
     }
 </script>
 
