@@ -1,5 +1,5 @@
 <template>
-    <div class="button-wrapper px-5">
+    <div class="px-5">
         <button class="btn btn-blue mr-5 ">Заказать в Москву</button>
         <button class="btn btn-blue">Заказать в Санкт-Петербург</button>
     </div>

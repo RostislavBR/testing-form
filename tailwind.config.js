@@ -1,3 +1,5 @@
+const defaultTheme = require('tailwindcss/defaultTheme')
+
 module.exports = {
   purge: [
     './public/**/*.html',
@@ -9,7 +11,14 @@ module.exports = {
       ...theme('colors'),
       'customGreen': '#0D9488',
     }),
-    extend: {},
+    inset: {
+      '1/2': '50%',
+    },
+    extend: {
+      fontFamily: {
+        'sans': ['Inter', ...defaultTheme.fontFamily.sans],
+      },
+    },
   },
   variants: {
     extend: {},
