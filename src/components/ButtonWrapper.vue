@@ -13,12 +13,12 @@
 
 <style scoped>
     .btn {
-        @apply py-2 px-4 rounded;
+        @apply py-2 px-4 rounded-md;
     }
     .btn-blue {
         @apply bg-blue-500 text-white;
     }
     .btn:focus {
-        @apply bg-customGreen;
+        @apply bg-darkGreen;
     }
 </style>

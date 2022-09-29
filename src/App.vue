@@ -5,8 +5,4 @@
 </template>
 
 <style>
-    /*@font-face {*/
-    /*    font-family: 'Inter';*/
-    /*    src: url('fonts/Inter-Medium.ttf');*/
-    /*}*/
 </style>
