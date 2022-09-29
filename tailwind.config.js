@@ -9,8 +9,13 @@ module.exports = {
   theme: {
     backgroundColor: theme => ({
       ...theme('colors'),
-      'customGreen': '#0D9488',
+      'darkGreen': '#0D9488',
+      'lightGreen': '#16A34A',
     }),
+    maxWidth: {
+      'popupMaxWidth': '793px',
+      'inputMaxWidth': '170px'
+    },
     inset: {
       '1/2': '50%',
     },
